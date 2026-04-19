@@ -1,6 +1,6 @@
 baseURL = 'https://kng-mtd.github.io/hugo0/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'My First Hugo Project'
 theme = 'PaperMod'
 [params]
   mainSections = ['posts']
