@@ -1,0 +1,4 @@
+baseURL = 'https://kng-mtd.github.io/hugo0/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = 'PaperMod'
