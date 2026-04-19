@@ -4,4 +4,4 @@ draft = false
 title = 'Post1'
 +++
 
-Hello Hugo again
+Hello Hugo again!
