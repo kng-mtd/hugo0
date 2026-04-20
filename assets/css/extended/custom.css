@@ -5,7 +5,7 @@
   --background: #dfd;
 }
 
-[data-theme="dark"] {
+html[data-theme="dark"] {
   --primary: #dfd;
   --content: #afa;
   --border: #242;
