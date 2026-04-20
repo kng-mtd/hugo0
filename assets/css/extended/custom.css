@@ -5,11 +5,11 @@
   --background: #dfd;
 }
 
-html[data-theme="dark"] {
-  --primary: #dfd;
-  --content: #afa;
-  --border: #242;
-  --background: #262;
+[data-theme="dark"] {
+  --primary: #dfd !important;
+  --content: #afa !important;
+  --border: #242 !important;
+  --background: #262 !important;
 }
 
 body {
