@@ -1,6 +1,112 @@
-baseURL = 'https://kng-mtd.github.io/hugo0/'
-locale = 'en-us'
-title = 'My First Hugo Project'
-theme = 'PaperMod'
+################################
+# Basic
+################################
+baseURL = 'https://kng-mtd.github.io/hugo0/'   # your site URL
+title = 'My Notes'                 # site title
+#languageCode = 'ja'               # language
+languageCode = 'en-us'              # language
+theme = "PaperMod"                # theme name
+
 [params]
   mainSections = ['posts']
+
+################################
+# Pagination
+################################
+[pagination]
+  pagerSize = 10                  # posts per page
+
+################################
+# Enable robots.txt (SEO)
+################################
+enableRobotsTXT = true
+
+################################
+# Taxonomy (tags / categories)
+################################
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+################################
+# Menu (top navigation)
+################################
+[[menu.main]]
+  name = "Notes"                  # display name
+  url = "/posts/"                 # path
+  weight = 1                      # order
+
+# [[menu.main]]
+#   name = "About"
+#   url = "/about/"
+#   weight = 2
+
+################################
+# Params (PaperMod settings)
+################################
+[params]
+  author = "kengo"
+  description = "Simple notes site"
+
+  ################################
+  # UI Behavior (Notion風：全部オフ寄せ)
+  ################################
+  ShowReadingTime = false         # reading time
+  ShowToc = false                 # table of contents
+  ShowBreadCrumbs = false         # breadcrumb
+  ShowPostNavLinks = false        # prev/next
+  ShowShareButtons = false        # SNS buttons
+
+  ################################
+  # Theme
+  ################################
+  defaultTheme = "auto"           # light / dark / auto
+
+  ################################
+  # Home (トップページ)
+  ################################
+  [params.homeInfoParams]
+    Title = "My Notes"
+    Content = "Lightweight Hugo + PaperMod"
+
+################################
+# Markdown / Rendering
+################################
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true               # allow raw HTML
+
+  [markup.highlight]
+    style = "github"              # code highlight style
+    noClasses = false
+
+################################
+# Outputs (JSON追加で検索などに使える)
+################################
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+################################
+# Development Server
+################################
+[server]
+  port = 1313
+
+################################
+# Optional (Git情報)
+################################
+# enableGitInfo = true
+
+################################
+# Optional (Image processing)
+################################
+# [imaging]
+#   quality = 80
+
+################################
+# Optional (Caches)
+################################
+# [caches]
+#   [caches.images]
+#     dir = ":cacheDir/images"
