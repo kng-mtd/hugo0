@@ -1,15 +1,15 @@
 :root {
-  --primary: #242;
-  --content: #131;
-  --border: #ded;
-  --background: #efe;
+  --primary: #262;
+  --content: #242;
+  --border: #afa;
+  --background: #dfd;
 }
 
 [data-theme="dark"] {
   --primary: #dfd;
-  --content: #efe;
-  --border: #131;
-  --background: #020;
+  --content: #afa;
+  --border: #242;
+  --background: #262;
 }
 
 body {
