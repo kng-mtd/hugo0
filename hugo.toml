@@ -7,9 +7,35 @@ title = 'My Notes'                 # site title
 languageCode = 'en-us'              # language
 theme = 'PaperMod'                # theme name
 
+################################
+# Params (PaperMod settings)
+################################
 [params]
   mainSections = ['posts']
 
+  author = "kengo"
+  description = "Simple notes site"
+
+  ################################
+  # UI Behavior (Notion風：全部オフ寄せ)
+  ################################
+  ShowReadingTime = false         # reading time
+  ShowToc = false                 # table of contents
+  ShowBreadCrumbs = false         # breadcrumb
+  ShowPostNavLinks = false        # prev/next
+  ShowShareButtons = false        # SNS buttons
+
+  ################################
+  # Theme
+  ################################
+  defaultTheme = "auto"           # light / dark / auto
+
+  ################################
+  # Home (トップページ)
+  ################################
+  [params.homeInfoParams]
+    Title = "My Notes"
+    Content = "Lightweight Hugo + PaperMod"
 ################################
 # Pagination
 ################################
@@ -41,33 +67,6 @@ enableRobotsTXT = true
 #   url = "/about/"
 #   weight = 2
 
-################################
-# Params (PaperMod settings)
-################################
-[params]
-  author = "kengo"
-  description = "Simple notes site"
-
-  ################################
-  # UI Behavior (Notion風：全部オフ寄せ)
-  ################################
-  ShowReadingTime = false         # reading time
-  ShowToc = false                 # table of contents
-  ShowBreadCrumbs = false         # breadcrumb
-  ShowPostNavLinks = false        # prev/next
-  ShowShareButtons = false        # SNS buttons
-
-  ################################
-  # Theme
-  ################################
-  defaultTheme = "auto"           # light / dark / auto
-
-  ################################
-  # Home (トップページ)
-  ################################
-  [params.homeInfoParams]
-    Title = "My Notes"
-    Content = "Lightweight Hugo + PaperMod"
 
 ################################
 # Markdown / Rendering
