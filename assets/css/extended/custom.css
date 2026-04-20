@@ -1,12 +1,12 @@
 :root {
-  --primary: #26e;
+  --primary: #222;
   --content: #111;
   --border: #eee;
   --background: #fff;
 }
 
 [data-theme="dark"] {
-  --primary: #6af;
+  --primary: #ddd;
   --content: #eee;
   --border: #333;
   --background: #000;
