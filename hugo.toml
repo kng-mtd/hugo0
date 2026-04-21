@@ -3,9 +3,12 @@
 ################################
 baseURL = 'https://kng-mtd.github.io/hugo0/'   # your site URL
 title = 'My Notes'                 # site title
-#languageCode = 'ja'               # language
-languageCode = 'en-us'              # language
+languageCode = 'ja'               # language
+#languageCode = 'en-us'             # language
 theme = 'PaperMod'                # theme name
+
+
+
 
 ################################
 # Params (PaperMod settings)
@@ -17,10 +20,11 @@ theme = 'PaperMod'                # theme name
   description = "Simple notes site"
 
   ################################
-  # UI Behavior (Notion風：全部オフ寄せ)
+  # UI Behavior
   ################################
   ShowReadingTime = false         # reading time
   ShowToc = false                 # table of contents
+  TocOpen = false
   ShowBreadCrumbs = false         # breadcrumb
   ShowPostNavLinks = false        # prev/next
   ShowShareButtons = false        # SNS buttons
@@ -31,7 +35,7 @@ theme = 'PaperMod'                # theme name
   defaultTheme = "auto"           # light / dark / auto
 
   ################################
-  # Home (トップページ)
+  # Home
   ################################
   [params.homeInfoParams]
     Title = "My Notes"
@@ -62,7 +66,6 @@ enableRobotsTXT = true
   url = "/posts/"                 # path
   weight = 1                      # order
 
-# [[menu.main]]
 #   name = "About"
 #   url = "/about/"
 #   weight = 2
@@ -81,7 +84,7 @@ enableRobotsTXT = true
     noClasses = false
 
 ################################
-# Outputs (JSON追加で検索などに使える)
+# Outputs
 ################################
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -93,19 +96,13 @@ enableRobotsTXT = true
   port = 1313
 
 ################################
-# Optional (Git情報)
+# Optional
 ################################
-# enableGitInfo = true
+# enableGitInfo = true # Git情報
 
-################################
-# Optional (Image processing)
-################################
-# [imaging]
+# [imaging] # Image processing
 #   quality = 80
 
-################################
-# Optional (Caches)
-################################
-# [caches]
+# [caches] # Caches
 #   [caches.images]
 #     dir = ":cacheDir/images"
