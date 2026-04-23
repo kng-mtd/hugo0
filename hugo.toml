@@ -95,7 +95,7 @@ enableRobotsTXT = true
 ################################
 # Optional
 ################################
-# enableGitInfo = true # Git情報
+# enableGitInfo = true # Git information
 
 # [imaging] # Image processing
 #   quality = 80
