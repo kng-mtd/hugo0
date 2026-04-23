@@ -66,6 +66,7 @@ enableRobotsTXT = true
   url = "/posts/"                 # path
   weight = 1                      # order
 
+[[menu.main]]
   name = "About"
   url = "/about/"
   weight = 2
