@@ -3,7 +3,7 @@
 ################################
 baseURL = 'https://kng-mtd.github.io/hugo0/'   # your site URL
 title = 'My Notes'                 # site title
-languageCode = 'ja'               # language
+languageCode = 'en-us'               # language
 #languageCode = 'en-us'             # language
 theme = 'PaperMod'                # theme name
 
