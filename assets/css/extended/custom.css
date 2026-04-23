@@ -7,9 +7,9 @@
 
 [data-theme="dark"] {
   --primary: #dfd !important;
-  --content: #cfc !important;
+  --content: #cec !important;
   --border: #242 !important;
-  --background: #020 !important;
+  --background: #010 !important;
 }
 
 body {
