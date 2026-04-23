@@ -66,10 +66,9 @@ enableRobotsTXT = true
   url = "/posts/"                 # path
   weight = 1                      # order
 
-#   name = "About"
-#   url = "/about/"
-#   weight = 2
-
+  name = "About"
+  url = "/about/"
+  weight = 2
 
 ################################
 # Markdown / Rendering
