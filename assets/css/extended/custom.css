@@ -12,24 +12,6 @@
   --background: #010 !important;
 }
 
-.logo {
-  background-image: url("https://picsum.photos/id/1005/1200/200");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  padding: 10px 16px;
-  border-radius: 8px;
-  display: inline-block;
-}
-
-.header {
-  background-image: url("https://picsum.photos/1920/400");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .main {
   max-width: 720px;
   margin: 0 auto;
