@@ -51,12 +51,33 @@ hr {
   margin: 2rem 0;
 }
 
-.home-info {
-  background-image: url("https://picsum.photos/id/1015/1200/400");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 
-  padding: 40px 24px;
+
+.home-info {
+  position: relative;
+  padding: 50px 24px;
   border-radius: 12px;
+  overflow: hidden;
+}
+
+.home-info::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("https://picsum.photos/1200/400") center/cover no-repeat;
+  z-index: -2;
+}
+
+.home-info::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: -1;
+}
+
+.home-info * {
+  position: relative;
+  z-index: 1;
+  color: #fff;
 }
